@@ -6,7 +6,7 @@ require (
 	github.com/Benau/tgsconverter v0.0.0-20210809170556-99f4a4f6337f
 	github.com/Philipp15b/go-steam v1.0.1-0.20200727090957-6ae9b3c0a560
 	github.com/Rhymen/go-whatsapp v0.1.2-0.20211102134409-31a2e740845c
-	github.com/SevereCloud/vksdk/v2 v2.13.0
+	github.com/SevereCloud/vksdk/v2 v2.14.0
 	github.com/d5/tengo/v2 v2.10.0
 	github.com/davecgh/go-spew v1.1.1
 	github.com/fsnotify/fsnotify v1.5.1
@@ -14,7 +14,7 @@ require (
 	github.com/gomarkdown/markdown v0.0.0-20211207152620-5d6539fd8bfc
 	github.com/google/gops v0.3.22
 	github.com/gorilla/schema v1.2.0
-	github.com/gorilla/websocket v1.4.2
+	github.com/gorilla/websocket v1.5.0
 	github.com/harmony-development/shibshib v0.0.0-20211127182844-512296f7c548
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/jpillora/backoff v1.0.0
@@ -73,7 +73,7 @@ require (
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kettek/apng v0.0.0-20191108220231-414630eed80f // indirect
-	github.com/klauspost/compress v1.14.1 // indirect
+	github.com/klauspost/compress v1.15.1 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
 	github.com/labstack/gommon v0.3.1 // indirect
 	github.com/magiconair/properties v1.8.5 // indirect
