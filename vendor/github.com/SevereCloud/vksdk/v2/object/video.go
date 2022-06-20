@@ -31,7 +31,7 @@ type VideoVideo struct {
 	CanLike BaseBoolInt `json:"can_like"`
 
 	// Information whether current user can download the video.
-	CanDownload BaseBoolInt `json:"can_download"`
+	CanDownload int `json:"can_download"`
 
 	// Information whether current user can repost this video.
 	CanRepost         BaseBoolInt       `json:"can_repost"`
@@ -296,4 +296,28 @@ type VideoVideoTagInfo struct {
 type VideoVideoImage struct {
 	BaseImage
 	WithPadding BaseBoolInt `json:"with_padding"`
+}
+
+// VideoLive struct.
+type VideoLive struct {
+	OwnerID     int             `json:"owner_id"`
+	VideoID     int             `json:"video_id"`
+	Name        string          `json:"name"`
+	Description string          `json:"description"`
+	AccessKey   string          `json:"access_key"`
+	Stream      VideoLiveStream `json:"stream"`
+}
+
+// VideoLiveStream struct.
+type VideoLiveStream struct {
+	URL     string `json:"url"`
+	Key     string `json:"key"`
+	OKMPURL string `json:"okmp_url"`
+}
+
+// VideoLiveCategory struct.
+type VideoLiveCategory struct {
+	ID      int                 `json:"id"`
+	Label   string              `json:"label"`
+	Sublist []VideoLiveCategory `json:"sublist,omitempty"`
 }
