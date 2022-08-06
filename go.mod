@@ -8,7 +8,7 @@ require (
 	github.com/Rhymen/go-whatsapp v0.1.2-0.20211102134409-31a2e740845c
 	github.com/SevereCloud/vksdk/v2 v2.14.1
 	github.com/bwmarrin/discordgo v0.25.0
-	github.com/d5/tengo/v2 v2.12.0
+	github.com/d5/tengo/v2 v2.12.1
 	github.com/davecgh/go-spew v1.1.1
 	github.com/fsnotify/fsnotify v1.5.4
 	github.com/go-telegram-bot-api/telegram-bot-api/v5 v5.5.1
