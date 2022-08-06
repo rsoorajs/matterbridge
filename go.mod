@@ -6,7 +6,7 @@ require (
 	github.com/Benau/tgsconverter v0.0.0-20210809170556-99f4a4f6337f
 	github.com/Philipp15b/go-steam v1.0.1-0.20200727090957-6ae9b3c0a560
 	github.com/Rhymen/go-whatsapp v0.1.2-0.20211102134409-31a2e740845c
-	github.com/SevereCloud/vksdk/v2 v2.14.1
+	github.com/SevereCloud/vksdk/v2 v2.15.0
 	github.com/bwmarrin/discordgo v0.25.0
 	github.com/d5/tengo/v2 v2.12.0
 	github.com/davecgh/go-spew v1.1.1
@@ -80,7 +80,7 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/kettek/apng v0.0.0-20191108220231-414630eed80f // indirect
-	github.com/klauspost/compress v1.15.6 // indirect
+	github.com/klauspost/compress v1.15.8 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.12 // indirect
 	github.com/labstack/gommon v0.3.1 // indirect
 	github.com/magiconair/properties v1.8.6 // indirect
